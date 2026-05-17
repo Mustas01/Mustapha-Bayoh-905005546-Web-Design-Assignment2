@@ -1,3 +1,9 @@
+<img width="1920" height="1140" alt="Screenshot 2026-05-17 191800" src="https://github.com/user-attachments/assets/a03f5f3b-8372-4359-bddc-5225b11e87bb" /># Screenshots
+<img width="1920" height="1140" alt="Screenshot 2026-05-17 192310" src="https://github.com/user-attachments/assets/2a1763e1-2803-4bbe-90bc-af181fe1113b" />
+<img width="1920" height="1140" alt="Screenshot 2026-05-17 191800" src="https://github.com/user-attachments/assets/ebacf892-5be0-4d51-8fdb-bc6f67384d4b" />
+
+
+
 # ⚡ EnergyTrack SL
 
 EnergyTrack SL is a Digital Public Good (DPG) web platform designed to help homes and businesses in Sierra Leone monitor electricity usage, reduce energy waste, and manage electricity bills efficiently.
