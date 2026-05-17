@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EnergyTrack SL</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f5f9ff;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0d47a1;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #bbdefb;
+    }
+
+    .hero {
+      padding: 80px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #e3f2fd, #bbdefb);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #0d47a1;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      margin: 20px auto;
+      max-width: 700px;
+      font-size: 1.2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      margin: 10px;
+      background: #1565c0;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .btn:hover {
+      background: #0d47a1;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #0d47a1;
+      margin-bottom: 20px;
+      font-size: 2rem;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      width: 260px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    footer {
+      background: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      header { flex-direction: column; text-align: center; }
+      nav { justify-content: center; margin-top: 15px; }
+      .hero h1 { font-size: 2rem; }
+      .hero p { font-size: 1rem; }
+      .cards { flex-direction: column; align-items: center; }
+      .card { width: 90%; max-width: 320px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>⚡ EnergyTrack SL</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Usage</a> 
+      <a href="#">Billing</a>
+      <a href="#">Reports</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=900&q=80" alt="Energy monitoring" style="width:100%; max-width:700px; border-radius:12px; margin-bottom:30px; box-shadow:0 4px 15px rgba(0,0,0,0.2);">
+    <h1>Smart Energy Monitoring for Sierra Leone</h1>
+    <p>EnergyTrack SL helps homes and businesses monitor electricity usage, reduce waste, and manage energy bills more efficiently.</p>
+    <a href="#" class="btn">Track Usage</a>
+    <a href="#" class="btn">Get Started</a>
+  </section>
+
+  <section class="section">
+    <h2>Our Features</h2>
+    <div class="cards">
+      <div class="card"><h3>Live Monitoring</h3><p>Track your electricity use in real time.</p></div>
+      <div class="card"><h3>Bill Estimator</h3><p>Estimate monthly electricity costs.</p></div>
+      <div class="card"><h3>Usage Reports</h3><p>View daily and monthly analytics.</p></div>
+      <div class="card"><h3>Energy Saving Tips</h3><p>Reduce waste and save money.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card"><h3>Smart Meter Tracking</h3><p>Monitor electricity usage in real time from anywhere.</p></div>
+      <div class="card"><h3>Bill Estimation</h3><p>Predict your monthly energy bills accurately.</p></div>
+      <div class="card"><h3>Usage Analytics</h3><p>Analyze your consumption with easy-to-read reports.</p></div>
+      <div class="card"><h3>Energy Saving Tips</h3><p>Get recommendations to reduce power waste.</p></div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#e3f2fd;">
+    <h2>About Us</h2>
+    <p style="max-width:800px; margin:0 auto;">EnergyTrack SL is a digital platform designed to help homes and businesses in Sierra Leone manage electricity consumption efficiently through smart monitoring tools, analytics, and energy-saving solutions.</p>
+  </section>
+
+  <section class="section">
+    <h2>Our Impact</h2>
+    <div class="cards">
+      <div class="card"><h3>500+</h3><p>Active Users</p></div>
+      <div class="card"><h3>1200+</h3><p>Devices Connected</p></div>
+      <div class="card"><h3>30%</h3><p>Average Energy Savings</p></div>
+    </div>
+  </section>
+
+  <section class="section" style="background:#e3f2fd;">
+    <h2>Contact Us</h2>
+    <form style="max-width:500px; margin:0 auto; display:flex; flex-direction:column; gap:15px;">
+      <input type="text" placeholder="Your Name" style="padding:12px; border-radius:8px; border:1px solid #ccc;">
+      <input type="email" placeholder="Your Email" style="padding:12px; border-radius:8px; border:1px solid #ccc;">
+      <textarea placeholder="Your Message" rows="5" style="padding:12px; border-radius:8px; border:1px solid #ccc;"></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p>© 2026 EnergyTrack SL | Designed for Web Design Assignment</p>
+  </footer>
+</body>
+</html>
